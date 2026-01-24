@@ -23,7 +23,7 @@ Este repositório nasce justamente desse entusiasmo em **aprender, praticar e ev
 
 ---
 
-## 🧠 Conteúdo abordado (exemplos)
+## 🧠 Conteúdo abordado
 
 - Sintaxe básica do PHP  
 - Variáveis e tipos de dados  
