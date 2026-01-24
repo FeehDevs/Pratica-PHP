@@ -31,8 +31,6 @@ Este repositório nasce justamente desse entusiasmo em **aprender, praticar e ev
 - Funções  
 - Boas práticas iniciais  
 
-*(A lista pode crescer conforme o avanço no curso)*
-
 ---
 
 ## 🙌 Agradecimento
