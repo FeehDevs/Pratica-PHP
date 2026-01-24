@@ -43,10 +43,8 @@ Um agradecimento especial ao **Professor Gustavo Guanabara**, pela didática cla
 
 ## 🖼️ Curso de referência
 
-![Curso de PHP Moderno - Curso em Vídeo](https://www.cursoemvideo.com/wp-content/uploads/2019/08/php-moderno.png)
-
 🔗 **Link do curso:**  
-https://www.cursoemvideo.com/curso/php-moderno/
+(https://www.cursoemvideo.com/curso/curso-de-php-moderno-modulo-01/)
 
 ---
 
