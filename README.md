@@ -35,6 +35,12 @@ Este repositório nasce justamente desse entusiasmo em **aprender, praticar e ev
 
 ---
 
+## 🙌 Agradecimento
+
+Um agradecimento especial ao **Professor Gustavo Guanabara**, pela didática clara, acessível e inspiradora, que motiva milhares de pessoas a darem os primeiros passos (e evoluírem) na programação. Obrigado por compartilhar tanto conhecimento de forma tão simples e empolgante! 👏💙
+
+---
+
 ## 🖼️ Curso de referência
 
 ![Curso de PHP Moderno - Curso em Vídeo](https://www.cursoemvideo.com/wp-content/uploads/2019/08/php-moderno.png)
