@@ -12,13 +12,17 @@
     </header>
     <main>
         <?php 
-            //var_dump($_GET); | $_REQUEST ele é a junção da superglobal get, post e cookkies
-            $nom = $_GET["nome"];
-            $snom = $_GET["sobrenome"];
+            //var_dump($_GET); exibe informações detalhadas sobre uma variável, mostrando seu tipo e valor, sendo usada para depuração.
+
+            //$_REQUEST ele pega informação dos metodos get, post e cookkies, porém consome mais memoria.
+
+            $nom = $_GET["nome"] ?? "Não te";
+            $snom = $_GET["sobrenome"] ?? "Conheço";
+                //"??" operador de coalescência nula, neste caso, se não houver informação do $_GET ele usa a informação definida
             echo "É um prazer te conhecer,<strong> $nom $snom!</strong> Este é o me site";
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para a pagina anterior</a></p>
-        
+
     </main>
 </body>
 </html>
