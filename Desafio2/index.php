@@ -19,7 +19,7 @@
         <strong>Lembrando que a escala de números vai até 100</strong>
        </p>
        <form action="bet.php" method="get">
-        <label for="menor"> < 50</label>
+        <label for="menor">< 50</label>
         <input type="submit"  value="menor" name="menor">
         <label for="empate">50</label>
         <input type="submit" value="empate" name="empate">

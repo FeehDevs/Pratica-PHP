@@ -14,6 +14,8 @@
     </header>
     <section>
         <?php
+        $imgw = "<img src='assets/vitoria.jpg'>";
+        $imgd = "<img src='assets/derrota.jpg'>";
         $menor = ($_GET['menor'] ?? '') === 'menor'; // ?? operador de coalesencia nula, faz uma condicional e determina um valor base
         $empate = ($_GET['empate'] ?? '') === 'empate'; // === operador logico identico, ele que gera o valor boleano
         $maior = ($_GET['maior'] ?? '') === 'maior';
@@ -21,16 +23,19 @@
         $num = rand(1, 100);
         echo "O valor sorteado foi <strong>$num</strong>";
         if ($num < 50 && $menor == true) {
+            echo "<br> <br>". $imgw;
             echo "<p><br>Você ganhou!!!</p>";
         } elseif ($num == 50 && $empate == true) {
+            echo "<br> <br>". $imgw;
             echo "<p><br>Você ganhou!!!</p>";
         } elseif ($num > 50 && $maior == true) {
+            echo "<br> <br>". $imgw;
             echo "<p><br>Você ganhou!!!</p>";
         } else {
-            echo "Você Perdeu!!!";
+            echo "<br> <br>". $imgd;
+            echo "<p><br>Você Perdeu!!!</p>";
         }
         ?>
     </section>
 </body>
-
 </html>
