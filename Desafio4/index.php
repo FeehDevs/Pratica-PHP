@@ -11,7 +11,7 @@
         <h1>Conversor 2.0</h1>
         <form action="conversao.php" method="post">
             <label for="real">Quantos R$ você quer converter</label>
-            <input type="float">
+            <input type="float" name="valor">
             <input type="submit" value="Converter">
         </form>
     </section>

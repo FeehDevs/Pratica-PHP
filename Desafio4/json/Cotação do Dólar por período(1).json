@@ -1,0 +1,30 @@
+{
+    "@odata.context": "https://was-p.bcnet.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata$metadata#_CotacaoDolarPeriodo",
+    "value": [
+        {
+            "cotacaoCompra": 5.22950,
+            "cotacaoVenda": 5.23010,
+            "dataHoraCotacao": "2026-01-30 13:05:28.73"
+        },
+        {
+            "cotacaoCompra": 5.25810,
+            "cotacaoVenda": 5.25870,
+            "dataHoraCotacao": "2026-02-02 13:07:27.937"
+        },
+        {
+            "cotacaoCompra": 5.22300,
+            "cotacaoVenda": 5.22360,
+            "dataHoraCotacao": "2026-02-03 13:11:27.228"
+        },
+        {
+            "cotacaoCompra": 5.23530,
+            "cotacaoVenda": 5.23590,
+            "dataHoraCotacao": "2026-02-04 13:10:28.563"
+        },
+        {
+            "cotacaoCompra": 5.25740,
+            "cotacaoVenda": 5.25800,
+            "dataHoraCotacao": "2026-02-05 13:05:29.335"
+        }
+    ]
+}

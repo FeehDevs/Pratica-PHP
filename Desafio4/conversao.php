@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section>
+        <h1>Valor convertido</h1>
+        <?php 
+            $num = $_POST["valor"]
+            
+        ?>
+    </section>
 </body>
 </html>
