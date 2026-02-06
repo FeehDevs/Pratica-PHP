@@ -13,9 +13,10 @@
                 $num = $_GET["valor"];
                 $dol = $num / 5.27;
                 $eur = $num / 6.21;
-                echo "<h2>Dolar</h2><p>O valor do dolar no dia 05/02/2026 é de R$$dol</p>";
-                echo "<h2>Euro</h2><p>O valor do eur no dia 05/02/2026 é de R$$eur</p>"
-
+                $dol = number_format($dol, 2, ',', '.');
+                $eur = number_format($eur, 2, ',', '.');
+                echo "<h2>Dolar</h2><p>No dia 05/02/2026 seus R$$num equivalem a  US$$number$dol</p>";
+                echo "<h2>Euro</h2><p>No dia 05/02/2026 seus R$$num equivalem a  EUR$$number$eur</p>";
             ?>
     </section>
 </body>
