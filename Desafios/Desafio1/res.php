@@ -15,7 +15,7 @@
             echo "O número escolhido é $num <br>";
             echo "O sucessor do seu número é " . $num + 1 . "<br>";
         ?>
-        <p><a href="javascript:history.go(-1)">Voltar para a pagina anterior</a></p>
+        <button onclick="javascript:history.go(-1)">Voltar</button>
     </section>
 </body>
 </html>
