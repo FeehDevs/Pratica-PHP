@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor 2.0</title>
+    <title>Cotação de Moedas 2.0</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section>
+        <h1>Cotação de Moedas</h1>
+        <p>Quantos R$ você gostaria de converter?</p>
+        <form action="conversao2.php" method="get">
+            <label for="real">R$</label>
+            <input type="float" name="valor">
+            <button type="submit">Converter</button>
+        </form>
+    </section>
 </body>
 </html>
