@@ -15,6 +15,7 @@
                 $eur = $num / 6.21;
                 $dol = number_format($dol, 2, ',', '.');
                 $eur = number_format($eur, 2, ',', '.');
+                $num = number_format($num, 2, ',', '.');
                 echo "<h2>Dolar</h2><p>No dia 05/02/2026 seus <strong>R$$num</strong> equivalem a  <strong>US$$dol</strong></p>";
                 echo "<h2>Euro</h2><p>No dia 05/02/2026 seus <strong>R$$num</strong> equivalem a <strong>EUR$$eur</strong></p>";
             ?>
